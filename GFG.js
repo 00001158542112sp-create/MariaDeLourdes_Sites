@@ -1,7 +1,7 @@
 async function getGithubFolderContents() {
   const owner = '00001158542112sp-create';
-  const repo = 'Micro_Bit_AI-MariaDeLourdes';
-  const path = 'AIfiles'; // Use '' for the root directory
+  const repo = 'MariaDeLourdes_Sites';
+  const path = 'Sites'; // Use '' for the root directory
   const url = `https://github.com${owner}/${repo}/contents/${path}`;
 
   try {
